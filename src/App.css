@@ -1,0 +1,126 @@
+/* Add styling for your page here */
+
+.App {
+    display: flex;
+    flex-direction: column;
+    background-color: #43766C;
+    min-height: 103vh;
+}
+
+.title{
+    align-self: center;
+    color: #F8FAE5;
+    font-family: 'Trocchi', serif;
+    font-size: 48px;
+    margin-top: 50px;
+}
+
+.filters{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.languageFilter{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    justify-content: space-between;
+}
+
+.genreFilter{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.languageFilterLabel{
+    color: #F8FAE5;
+    font-family: 'Trocchi', serif;
+    font-size: 28px;
+    align-self: center;
+}
+
+.genreFilterLabel{
+    color: #F8FAE5;
+    font-family: 'Trocchi', serif;
+    font-size: 28px;
+    align-self: center;
+}
+
+.languageFilterCheckboxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.genreFilterCheckboxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.languageCheckboxLabel{
+    color: #F8FAE5;
+    font-family: 'Trocchi', serif;
+    font-size: 22px;
+}
+
+.genreCheckboxLabel{
+    color: #F8FAE5;
+    font-family: 'Trocchi', serif;
+    font-size: 22px;
+}
+
+.clearSelectionsButton{
+    align-self: center;
+    width: 150px;
+    margin-top: 15px;
+}
+
+.sortingDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sortingDropdownLabel{
+    color: #F8FAE5;
+    font-family: 'Trocchi', serif;
+    font-size: 28px;
+    align-self: center;
+}
+
+.sortingOptions{
+    width: 120px;
+}
+
+.bookCards{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.cartDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.cartLabel{
+    color: #F8FAE5;
+    font-family: 'Trocchi', serif;
+    font-size: 48px;
+}
+
+
+.cartPrice{
+    color: #F8FAE5;
+    font-family: 'Trocchi', serif;
+    font-size: 32px;
+}
+

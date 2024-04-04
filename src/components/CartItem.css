@@ -1,0 +1,25 @@
+.cartItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+}
+
+.minusButton, .plusButton{
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.cartItemBookName{
+    color: #F8FAE5;
+    font-family: 'Trocchi', serif;
+    font-size: 24px;
+}
+
+.cartItemTotalPrice{
+    color: #F8FAE5;
+    font-family: 'Trocchi', serif;
+    font-size: 24px;
+}
