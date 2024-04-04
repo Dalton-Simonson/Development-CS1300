@@ -17,13 +17,6 @@ var cartArray = [];
 let numCheckedLanguages = 0
 let numCheckedGenres = 0
 
-// function processJSON(){
-//   bookArray = [];
-//   bookData.forEach((item) => {
-//   item.image = process.env.PUBLIC_URL + "/" + item.image
-//   bookArray.push(item)
-// })}
-
 bookData.forEach((item) => {
   item.image = process.env.PUBLIC_URL + "/" + item.image
   bookArray.push(item)
@@ -420,6 +413,8 @@ const decrementCount = (item, price) => {
               name={item.name}
               image={item.image}
               price={item.price}
+              language={item.language}
+              genre={item.genre}
               show_language={item.show_language}
               show_genre={item.show_genre}
               cartPrice={cartPrice}
